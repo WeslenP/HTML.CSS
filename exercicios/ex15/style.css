@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* o que é ID no html no css é # e tudo o que é class no html no css é . */
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    color: #333;
+    margin: 0px;
+    padding:10px;
+}
+header{
+    background-color: #e68282;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    border: #333 3px solid;
+}
+nav{
+    text-size-adjust: 100%;
+    background-color: #592a97;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;    
+    margin-right: 30px;
+}
+nav>a:hover{
+    text-decoration:underline;
+}
+main{
+    background-color: aquamarine;
+    padding:10px;
+    margin: 10px;
+}
+section{
+    background-color: bisque;
+    color:#333;
+    margin: 10px;
+    padding: 10px;
+    border: #333 1px solid;
+}
+article{
+    background-color: burlywood;
+    padding:5px;
+}
+section>aside{
+    background-color: rgb(196, 137, 78);
+    border: #333 1px solid;
+    padding: 5px;
+    margin: 5px;
+}
+footer{
+    background-color: #e68282;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    border:#333 3px solid;
+    margin: 10px;
+}
+div#bola{
+    background-color: #f00;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}

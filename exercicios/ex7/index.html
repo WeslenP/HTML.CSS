@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista OL e UL</title>
+    <style>
+        section{width: 80%; margin: 0 auto;}
+    </style>
+</head>
+<body>
+    <h1>Usanso Listas OL e UL </h1>
+    <h2>Lista OL</h2>
+    <p>OL são Listas ordenadas que precisam de uma ordem, podemos adicinar o type com 1, A, a, i e I e també adicionar o start para indicar onde ela deve começar</p>
+     <ol type="1">
+        <li>acorda</li>
+        <li>tomar cafe</li>
+        <li>falar com jose</li>
+        <li>escovar os dentes</li>
+        <li>ir para escola</li>
+        <li>almoçar</li>
+        <li>ir para academia</li>
+        <li>levar o cão para passear</li>
+        <li>jantar</li>
+     </ol>
+    <h2>Lista UL</h2>
+    <p>a lista não ordenada, são aquelas onde não se precisa enumerar podemos adicionar o type com disc ,circle e square</p>
+    <ul type-"disc">
+        <li>pão</li>
+        <li>leite</li>
+        <li>feijão</li>
+        <li>café</li>
+        <li>arroz</li>
+    </ul>
+    <h2>Listas mistas</h2>
+    <p>podemos criar listas mistas com OL e UL</p>
+       <ul type="circle">
+        <li>Casa onde morei</li>
+            <ol type="1">
+                <li>Vargem grande</li>
+           </ol>
+        <li>Paises onde quero morar</li>
+           <ol type="1">
+                <li>China</li>
+                <li>Tailandia</li>
+                <li>Coreia</li>
+           </ol>
+
+       </ul>
+    <h1>Aprendendendo sobre links</h1>
+    <h2>links externos</h2>
+    <p>voce pode adicionar diversos links internos usando a tag a de ancoragem como por exemplo <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27">Clique Aqui</a></p>
+    <p>Sempre quando usarmos links externos recomenda-se que usemos a target _blank e rel-external para abrir em um nova guia por exemplo <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27" target="_blank" rel="external">Clique Aqui</a></p>
+    <h2>Links internos e navegação em pastas</h2>
+    <p>Esta é minha primeira pagina do site, tenho outras de estudos porém esta será a referencial, como estou estudando links internos e externos deixarei minha segunda pagina, <a href="pagina 02.html" rel="next">Segunda Pagina</a></p>
+    <h2>Links de pastas internas</h2>
+    <p>aprendemos umas tag nova, self onde indica em qual aba abrir uma nova pagina</p>
+    <p>você também pode visitar nossa pagina de noticias <a href="Noticias/pag003.html" rel="next" target="_self">aqui</a></p>
+    <p>também aprendemos  linkar paginas anterior que não estão na mesma pasta usando o ../nomedapagina</p>
+    <h1>Links Para Downloads</h1>
+    <p>Temos que nos atentar com qual documento estamos trabalhando pois cada formato tem sua tag de download para baixar e dependendo dela algumas não irão funcionar como deveriam</p>
+    <ul>
+        <li><a href="livros/10 - Ligações em toda parte.pdf" download="10 - ligações em toda parte.pdf" type="application/pdf">Baixar Livro em PDF</a></li>
+        <li><a href="livros/livro.zip.zip" download="livro.zip.zip">Baixar Livro em ZIP</a></li>
+    </ul>
+    
+    
+</body>
+</html>
